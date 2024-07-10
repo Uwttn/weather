@@ -1,38 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>weather</title>
     <script src="http://api.openweathermap.org/geo/1.0/direct?q=London&limit=5&appid=93a494eafd8d322076e955dca1840e6b
 "></script>
-    <link rel="stylesheet" href="./assets/style.css">
+<link rel="stylesheet" href="./assets/style.css">
 </head>
-
 <body>
-    <header>
-        <h1>Weather Dashboard</h1>
-    </header>
-    <!-- Search bar & buttons for the cities -->
-    <nav>
-        <input type="text" name="query" placeholder="enter city name..."><button id="search">search</button>
-        <button>Atlanta</button>
-        <button>Denver</button>
-        <button>Seattle</button>
-        <button>San Francisco</button>
-        <button>Orlando</button>
-        <button>New York</button>
-        <button>Chicago</button>
-        <button>Austin</button>
-    </nav>
-    <section class="current">
-        <span class="today"></span>
+    <section class="container">
+        <div class="weather-dashboard">
+            <div class="header">
+                <h1>Weather Dashboard</h1>
+            </div>
+            <div class="search-container"> 
+                <nav class="city-list">
+                    <input class="search" placeholder="Search by city..."><button class="search">search</button>
+                    <button>Atlanta</button>
+                    <button>Denver</button>
+                    <button>Seattle</button>
+                    <button>San Francisco</button>
+                    <button>Orlando</button>
+                    <button>New York</button>
+                    <button>Chicago</button>
+                    <button>Austin</button>
+                </nav>
+                <div class="weather-info">
+                    <div class="current-weather">
+                        <h2>Atlanta (9/13/2022) 🌞</h2>
+                        <p>Temp: 76.62°F</p>
+                        <p>Wind: 8.43 MPH</p>
+                        <p>Humidity: 44%</p>
+                    </div>
+                    <div class="forecast-container">
+                        <div class="forecast">
+                            <h3>9/14/2022</h3>
+                            <p>🌞</p>
+                            <p>Temp: 63.55 °F</p>
+                            <p>Wind: 3.94 MPH</p>
+                            <p>Humidity: 63 %</p>
+                        </div>
+                        <div class="forecast">
+                            <h3>9/15/2022</h3>
+                            <p>🌞</p>
+                            <p>Temp: 66.52 °F</p>
+                            <p>Wind: 3.91 MPH</p>
+                            <p>Humidity: 64 %</p>
+                        </div>
+                        <div class="forecast">
+                            <h3>9/16/2022</h3>
+                            <p>🌞</p>
+                            <p>Temp: 67.71 °F</p>
+                            <p>Wind: 3.27 MPH</p>
+                            <p>Humidity: 64 %</p>
+                        </div>
+                        <div class="forecast">
+                            <h3>9/17/2022</h3>
+                            <p>🌞</p>
+                            <p>Temp: 67.1 °F</p>
+                            <p>Wind: 4.65 MPH</p>
+                            <p>Humidity: 72 %</p>
+                        </div>
+                        <div class="forecast">
+                            <h3>9/18/2022</h3>
+                            <p>🌥</p>
+                            <p>Temp: 70.57 °F</p>
+                            <p>Wind: 4.23 MPH</p>
+                            <p>Humidity: 62 %</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    <section>
-        <span class="forecast"></span>
-    </section>
-    <script src="./assets/script.js"></script>
+        <script src="./assets/script.js"></script>
 </body>
-
 </html>

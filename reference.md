@@ -1,15 +1,15 @@
-# id and classes reference
+# Unique elements, id and classes reference
 
-## ids
-- **input** the search bar
-- **search** the buttons that looks up the input
-
-## Classes
-- **current** parent of class="today"
-- **today** the span element that needs to be created
-
-## Unique Elements
-- **header** the parent of the h1
+### **header**: the parent of the h1
 - **h1** the main and only header
-- **nav** the parent container of the buttons
+
+### **nav**: the parent container of the buttons
+- **#search** the search bar
 - **button** targets unique cities to search
+
+### **.current**: the parent of .today
+- **.today** the span element that needs to be created
+
+### **.future**: the parent of the span element
+- **.forecast** the span element to create
+
