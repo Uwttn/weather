@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    align-items: flex-start;
+    vertical-align: top;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+button {
+    background-color: #ddd;
+    border: none;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: pointer
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <script src="http://api.openweathermap.org/geo/1.0/direct?q=London&limit=5&appid=93a494eafd8d322076e955dca1840e6b
+"></script>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+    <!-- Search bar & buttons for the cities -->
+    <nav>
+        <input type="text" name="query" placeholder="enter city name..."><button id="search">search</button>
+        <button>Atlanta</button>
+        <button>Denver</button>
+        <button>Seattle</button>
+        <button>San Francisco</button>
+        <button>Orlando</button>
+        <button>New York</button>
+        <button>Chicago</button>
+        <button>Austin</button>
+    </nav>
+    <section class="current">
+        <span class="today"></span>
+    </section>
+    <section>
+        <span class="forecast"></span>
+    </section>
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
