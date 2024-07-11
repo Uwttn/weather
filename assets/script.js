@@ -71,7 +71,6 @@ document.addEventListener('DOMContentLoaded', function () {
             forecastContainer.innerHTML += `
                 <div class="forecast">
                     <h3>${date}</h3>
-                    <p>🌞</p>
                     <p>Temp: ${day.main.temp} °F</p>
                     <p>Wind: ${day.wind.speed} MPH</p>
                     <p>Humidity: ${day.main.humidity} %</p>
