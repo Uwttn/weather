@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function () {
     function updateCurrentWeather(data) {
         const currentWeather = document.querySelector('.current-weather');
         currentWeather.innerHTML = `
-            <h2>${data.name} (${new Date().toLocaleDateString()}) 🌞</h2>
+            <h2>${data.name} (${new Date().toLocaleDateString()})</h2>
             <p>Temp: ${data.main.temp}°F</p>
             <p>Wind: ${data.wind.speed} MPH</p>
             <p>Humidity: ${data.main.humidity} %</p>
