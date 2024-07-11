@@ -59,7 +59,7 @@ body {
 }
 
 .city-list button {
-    background-color: #ddd;
+    background-color: black;
     border: none;
     padding: 10px;
     margin: 5px 0;
@@ -68,7 +68,7 @@ body {
 }
 
 .city-list button:hover {
-    background-color: #ccc;
+    background-color: blue;
 }
 
 .weather-info {
