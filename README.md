@@ -4,7 +4,7 @@ A weather website using API
   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
    ## Description
-  A project that tells you the weather for specific cities
+  A project that tells you the weather for specific cities. The link to this website is [here](https://uwttn.github.io/weather/).
 
   ## License
   This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
