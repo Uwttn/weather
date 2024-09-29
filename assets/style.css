@@ -2,7 +2,6 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
 }
 
 .container {
@@ -10,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .weather-dashboard {
@@ -20,6 +19,7 @@ body {
     width: 90%;
     max-width: 1200px;
     padding: 20px;
+
 }
 
 .header {
@@ -27,7 +27,7 @@ body {
     background: linear-gradient(to right, #4a00e0, #8e2de2);
     color: white;
     padding: 20px;
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .search-container {
@@ -56,6 +56,7 @@ body {
     display: flex;
     flex-direction: column;
     margin-right: 20px;
+  
 }
 
 .city-list button {
@@ -65,6 +66,7 @@ body {
     margin: 5px 0;
     border-radius: 5px;
     cursor: pointer;
+  
 }
 
 .city-list button:hover {
@@ -73,6 +75,7 @@ body {
 
 .weather-info {
     flex: 1;
+    
 }
 
 .current-weather {
@@ -91,6 +94,12 @@ body {
 .forecast-container {
     display: flex;
     justify-content: space-between;
+    @media (max-width: 700px) {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 5px;
+     }
 }
 
 .forecast {
